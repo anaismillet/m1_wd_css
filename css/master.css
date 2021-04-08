@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Decovar';
+  src: url(/assets/fonts/DecovarAlpha-VF.ttf) format("truetype");
+  font-weight: 200;
+}
+
+html{
+  font-family: 'Decovar', sans-serif;
+  font-size: 1.5em;
+  font-weight: 140;
+  background-color: #F5F5F5;
+}
+
+h1{
+  font-size: 3em;
+  color: #1C0B1D;
+  font-variation-settings: 'TRME' 473.13;
+  animation-duration: 2s;
+  animation-name: appearIn;
+}
+
+h2{
+  padding-left: 30px;
+  padding-top: 220px;
+  font-size: 0.15em;
+  color: #1C0B1D;
+  font-variation-settings: 'WMX2' 473.13;
+}
+
+h3{
+  line-height: 40px;
+  font-size: 1.2em;
+  padding: 30px;
+  text-align: center;
+  font-variation-settings: 'TRME' 1000;
+  animation-duration: 1.5s;
+  animation-name: appearIn2;
+}
+
+h4{
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 0.30em;
+  color: #1C0B1D;
+  font-variation-settings: 'WMX2' 473.13;
+}
+
+h4:hover{
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 0.30em;
+  color: #D297D8;
+  font-variation-settings: 'WMX2' 473.13;
+}
+
+header{
+  padding: 55px;
+  text-align: center;
+  font-variation-settings: 'TRME' 1000;
+  animation-duration: 1.5s;
+  animation-name: appearIn2;
+}
+
+header p{
+  padding: 30px;
+    font-size: 1.5em;
+}
+
+header a{
+  text-decoration: none;
+  font-variation-settings: 'WMX2' 0;
+  transition: all .5s;
+  color: #1C0B1D;
+}
+header a:hover{
+  font-variation-settings: 'WMX2' 500;
+  color: #D297D8;
+}
+
+header a:nth-child(1){
+  color: #1C0B1D;
+}
+header a:nth-child(2){
+  color: #1C0B1D;
+}
+header a:nth-child(3){
+  color: #1C0B1D;
+}
+
+
+/* FILTRE CSS */
+
+
+.basic-box{
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border: 1px solid #160524;
+  text-align: left;
+  height: 300px;
+  font-size: 3.5em;
+  display : flex;
+  align-items: flex-end;
+  font-variation-settings: 'WMX2' 473.13;
+  animation-duration: 2s;
+  animation-name: stretch;
+}
+
+.abcontainer{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 25px;
+}
+
+.box-filter{
+  display: none;
+}
+
+#consonant:target ~ .vowel{
+    display: none;
+}
+
+#vowel:target ~ .consonant{
+    display: none;
+}
+
+#all:target ~ .consonant, .vowel{
+    display: block;
+}
+
+@keyframes appearIn {
+  0%{
+    transform: scale(0.2);
+  }
+
+  60%{
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: #D597D8;
+    border-radius: 100%;
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(100%);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+}
