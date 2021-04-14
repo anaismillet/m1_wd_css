@@ -13,7 +13,7 @@ html{
 
 h1{
   font-size: 3em;
-  color: #1C0B1D;
+  color: #B1EA86;
   font-variation-settings: 'TRME' 473.13;
   animation-duration: 2s;
   animation-name: appearIn;
@@ -55,7 +55,7 @@ h4:hover{
   padding-left: 30px;
   padding-top: 10px;
   font-size: 0.30em;
-  color: #D297D8;
+  color: #DC4EF9;
   font-variation-settings: 'WMX2' 473.13;
 }
 
@@ -108,6 +108,14 @@ header a:nth-child(3){
   font-variation-settings: 'WMX2' 473.13;
   animation-duration: 2s;
   animation-name: stretch;
+  background-image: url("balenciaga.jpeg");
+}
+
+.basic-box:hover{
+  background-color: #D3F3BA;
+  transform: scale(1.1);
+  transition: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .abcontainer{
@@ -121,6 +129,10 @@ header a:nth-child(3){
 
 .box-filter{
   display: none;
+}
+
+#consonant:target ~ .vowel:hover{
+    display: none;
 }
 
 #consonant:target ~ .vowel{
@@ -177,7 +189,7 @@ header a:nth-child(3){
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein {
     from {
         opacity:0;
     }
