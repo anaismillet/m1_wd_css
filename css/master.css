@@ -29,6 +29,7 @@ h2{
    -webkit-animation: fadein 4s;
 }
 
+
 h3{
   line-height: 40px;
   font-size: 0.8em;
@@ -72,12 +73,17 @@ header p{
     font-size: 1.5em;
 }
 
-header a{
+header a {
   text-decoration: none;
   font-variation-settings: 'WMX2' 0;
   transition: all .5s;
+
+}
+
+#consonant:hover{
   color: #1C0B1D;
 }
+
 header a:hover{
   font-variation-settings: 'WMX2' 500;
   color: #D297D8;
@@ -94,12 +100,8 @@ header a:nth-child(3){
 }
 
 
-/* FILTRE CSS */
-
 
 .basic-box{
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
   border: 1px solid #160524;
   text-align: left;
   height: 300px;
@@ -109,15 +111,226 @@ header a:nth-child(3){
   font-variation-settings: 'WMX2' 473.13;
   animation-duration: 2s;
   animation-name: stretch;
-  background-image: url("balenciaga.jpeg");
+  background-color: #EED3EE;
 }
 
 .basic-box:hover{
-  background-color: #D3F3BA;
-  transform: scale(1.1);
   transition: 0.5s;
   transition-timing-function: ease-in;
 }
+
+#a:hover{
+  background-image: url(/images/acne_studios.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#b:hover{
+  background-image: url(/images/balenciaga.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#c:hover{
+  background-image: url(/images/chanel.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#d:hover{
+  background-image: url(/images/dior.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#e:hover{
+  background-image: url(/images/escada.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#f:hover{
+  background-image: url(/images/fendi.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#g:hover{
+  background-image: url(/images/gucci.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#h:hover{
+  background-image: url(/images/helmut_lang.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#i:hover{
+  background-image: url(/images/isabel_marant.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#j:hover{
+  background-image: url(/images/jacquemus.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#k:hover{
+  background-image: url(/images/kye.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-color:#DC4EF9;
+}
+#l:hover{
+  background-image: url(/images/lanvin.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#m:hover{
+  background-image: url(/images/maison_margiela.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color:#DC4EF9;
+}
+#n:hover{
+  background-image: url(/images/nina_ricci.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#o:hover{
+  background-image: url(/images/oscar_dela_renta.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#p:hover{
+  background-image: url(/images/prada.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#q:hover{
+  background-image: url(/images/qasimi.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#r:hover{
+  background-image: url(/images/raf_simons.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#s:hover{
+  background-image: url(/images/sandro.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#t:hover{
+  background-image: url(/images/tory_burch.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color:#DC4EF9;
+}
+#u:hover{
+  background-image: url(/images/uma_wang.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#v:hover{
+  background-image: url(/images/valentino.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+  border-color:#DC4EF9;
+}
+#w:hover{
+  background-image: url(/images/wooyoungmi.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#x:hover{
+  background-image: url(/images/xu_zhi.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color:#DC4EF9;
+}
+#y:hover{
+  backdrop-filter: blur(10px);
+  background-image: url(/images/yves_saintlaurent.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-color:#DC4EF9;
+}
+#z:hover{
+  background-image: url(/images/zuhair_murad.jpg);
+  transform: scale(1.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color:#DC4EF9;
+}
+
 
 .abcontainer{
   width: 90%;
@@ -177,8 +390,7 @@ header a:nth-child(3){
 
   100% {
     transform: scale(100%);
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
+    border-radius: 0%;
   }
 }
 
