@@ -8,12 +8,32 @@ html{
   font-family: 'Decovar', sans-serif;
   font-size: 1.5em;
   font-weight: 140;
-  background-color: #F5F5F5;
+  background-color: #0F060F;
+}
+
+.button1 {
+  border: 1px solid #160524;
+  font-variation-settings: 'TRME' 473.13;
+  border: none;
+  border-radius: 1em;
+  color: #B1EA86;
+  padding: 16px 32px;
+  font-size: 46px;
+  margin: 1% 91.3%;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: left;
 }
 
 h1{
-  font-size: 3em;
-  color: #B1EA86;
+  margin-top: 0.5em;
+  font-family: 'Decovar', sans-serif;
+  font-size: 1.5em;
+  font-weight: 140;
+  color: #f5f5f5;
+  text-align: center;
   font-variation-settings: 'TRME' 473.13;
   animation-duration: 2s;
   animation-name: appearIn;
@@ -31,9 +51,12 @@ h2{
 
 
 h3{
+  margin-top: 1em;
   line-height: 40px;
   font-size: 0.8em;
   padding: 30px;
+  color: #E2B6E2;
+  letter-spacing: 5px;
   text-align: center;
   font-variation-settings: 'TRME' 1000;
   animation: fadein 2s;
@@ -77,26 +100,22 @@ header a {
   text-decoration: none;
   font-variation-settings: 'WMX2' 0;
   transition: all .5s;
-
 }
 
-#consonant:hover{
-  color: #1C0B1D;
-}
 
 header a:hover{
   font-variation-settings: 'WMX2' 500;
-  color: #D297D8;
+  color: #f5f5f5;
 }
 
 header a:nth-child(1){
-  color: #1C0B1D;
+  color: #f5f5f5;
 }
 header a:nth-child(2){
-  color: #1C0B1D;
+  color: #f5f5f5;
 }
 header a:nth-child(3){
-  color: #1C0B1D;
+  color: #f5f5f5;
 }
 
 
@@ -409,4 +428,20 @@ header a:nth-child(3){
     to {
         opacity:1;
     }
+}
+
+.button2 {
+  background-color: #B1EA86;
+  font-variation-settings: 'TRME' 500;
+  border: none;
+  color: #1C0B1D;
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 0px 537px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
