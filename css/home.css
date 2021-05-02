@@ -17,8 +17,9 @@ h1{
   font-size: 1.5em;
   font-weight: 140;
   color: #f5f5f5;
-  text-align: center;
+  text-align: right;
   z-index: 999;
+  position: inherit;
 }
 
 .center {
@@ -34,8 +35,8 @@ h1{
   letter-spacing: 3px;
 }
 
-.button hover{
-  background-color: #B1EA86;
+.center:hover{
+  font-variation-settings: 'WMX2' 300.13;
 }
 
 .container div{
