@@ -49,39 +49,34 @@ text-align:center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.container div:nth-child(1){
+.image-un{
   width: 165px;
   height: 351px;
+  margin-top: -40px;
 }
 
-.container-un div:nth-child(2){
-  background-color: red;
+.image-deux{
   width: 204px;
   height: 276px;
 }
-.container-un div:nth-child(3){
-  background-color: white;
+.image-trois{
   width: 196px;
   height: 214px;
 }
-.container-un div:nth-child(4){
-  background-color: blue;
+.image-quatre{
   width: 294px;
   height: 221px;
 }
-.container-un div:nth-child(5){
-  background-color: blue;
+.image-cing{
   width: 260px;
   height: 375px;
 }
-.container-un div:nth-child(6){
-  background-color: blue;
+.image-six{
   width: 201px;
   height: 279px;
 
 }
-.container-un div:nth-child(7){
-  background-color: blue;
+.image-sept{
   width: 234px;
   height: 316px;
 }
