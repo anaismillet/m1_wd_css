@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Decovar';
-  src: url(/assets/fonts/DecovarAlpha-VF.ttf) format("truetype");
+  src: url(../assets/fonts/DecovarAlpha-VF.ttf) format("truetype");
   font-weight: 200;
 }
 
@@ -20,17 +20,48 @@ h1{
   text-align: center;
 }
 
+.button div{
+text-align:center;
+}
+
 .button {
-  margin-top: 3em;
-  background-color: #B1EA86;
-  border: none;
+  margin-top: 1em;
+  border: 2em;
+  border-color: #ffff;
   color: white;
   padding: 16px 32px;
-  text-align: center;
   font-size: 3em;
-  margin: 4px 2px;
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
+}
+
+.button hover{
+  background-color: #B1EA86;
+}
+
+.container div{
+  padding: 23px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container div:nth-child(2){
+  width: 204px;
+  height: 276px;
+}
+.container-un div{
+  background-color: yellow;
+}
+.container-un div:nth-child(2){
+  background-color: red;
+}
+.container-un div:nth-child(3){
+  background-color: white;
+}
+.container-un div:nth-child(4){
+  background-color: blue;
 }

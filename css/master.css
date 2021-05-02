@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Decovar';
-  src: url(/assets/fonts/DecovarAlpha-VF.ttf) format("truetype");
+  src: url(../assets/fonts/DecovarAlpha-VF.ttf) format("truetype");
   font-weight: 200;
 }
 
@@ -124,8 +124,6 @@ header a:nth-child(3){
   text-align: left;
   height: 300px;
   font-size: 3.5em;
-  display : flex;
-  align-items: flex-end;
   font-variation-settings: 'WMX2' 473.13;
   animation-duration: 2s;
   animation-name: stretch;
@@ -138,7 +136,7 @@ header a:nth-child(3){
 }
 
 #a:hover{
-  background-image: url(/images/acne_studios.jpg);
+  background-image: url(../images/acne_studios.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,7 +144,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #b:hover{
-  background-image: url(/images/balenciaga.jpg);
+  background-image: url(../images/balenciaga.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,7 +152,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #c:hover{
-  background-image: url(/images/chanel.jpg);
+  background-image: url(../images/chanel.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -162,7 +160,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #d:hover{
-  background-image: url(/images/dior.jpg);
+  background-image: url(../images/dior.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,7 +168,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #e:hover{
-  background-image: url(/images/escada.jpg);
+  background-image: url(../images/escada.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,7 +176,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #f:hover{
-  background-image: url(/images/fendi.jpg);
+  background-image: url(../images/fendi.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -186,7 +184,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #g:hover{
-  background-image: url(/images/gucci.jpg);
+  background-image: url(../images/gucci.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -194,7 +192,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #h:hover{
-  background-image: url(/images/helmut_lang.jpg);
+  background-image: url(../images/helmut_lang.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -202,7 +200,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #i:hover{
-  background-image: url(/images/isabel_marant.jpg);
+  background-image: url(../images/isabel_marant.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -210,7 +208,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #j:hover{
-  background-image: url(/images/jacquemus.jpg);
+  background-image: url(../images/jacquemus.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +216,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #k:hover{
-  background-image: url(/images/kye.jpg);
+  background-image: url(../images/kye.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -226,7 +224,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #l:hover{
-  background-image: url(/images/lanvin.jpg);
+  background-image: url(../images/lanvin.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -234,7 +232,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #m:hover{
-  background-image: url(/images/maison_margiela.jpg);
+  background-image: url(../images/maison_margiela.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,7 +240,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #n:hover{
-  background-image: url(/images/nina_ricci.jpg);
+  background-image: url(../images/nina_ricci.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -250,7 +248,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #o:hover{
-  background-image: url(/images/oscar_dela_renta.jpg);
+  background-image: url(../images/oscar_dela_renta.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -258,7 +256,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #p:hover{
-  background-image: url(/images/prada.jpg);
+  background-image: url(../images/prada.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,7 +264,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #q:hover{
-  background-image: url(/images/qasimi.jpg);
+  background-image: url(../images/qasimi.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -274,7 +272,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #r:hover{
-  background-image: url(/images/raf_simons.jpg);
+  background-image: url(../images/raf_simons.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,7 +280,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #s:hover{
-  background-image: url(/images/sandro.jpg);
+  background-image: url(../images/sandro.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -290,7 +288,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #t:hover{
-  background-image: url(/images/tory_burch.jpg);
+  background-image: url(../images/tory_burch.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -298,7 +296,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #u:hover{
-  background-image: url(/images/uma_wang.jpg);
+  background-image: url(../images/uma_wang.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -306,7 +304,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #v:hover{
-  background-image: url(/images/valentino.jpg);
+  background-image: url(../images/valentino.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -316,7 +314,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #w:hover{
-  background-image: url(/images/wooyoungmi.jpg);
+  background-image: url(../images/wooyoungmi.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -324,7 +322,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #x:hover{
-  background-image: url(/images/xu_zhi.jpg);
+  background-image: url(../images/xu_zhi.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -333,7 +331,7 @@ header a:nth-child(3){
 }
 #y:hover{
   backdrop-filter: blur(10px);
-  background-image: url(/images/yves_saintlaurent.jpg);
+  background-image: url(../images/yves_saintlaurent.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -341,7 +339,7 @@ header a:nth-child(3){
   border-color:#DC4EF9;
 }
 #z:hover{
-  background-image: url(/images/zuhair_murad.jpg);
+  background-image: url(../images/zuhair_murad.jpg);
   transform: scale(1.1);
   background-size: cover;
   background-repeat: no-repeat;
