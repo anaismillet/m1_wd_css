@@ -52,7 +52,6 @@ text-align:center;
 .image-un{
   width: 165px;
   height: 351px;
-  margin-top: -40px;
 }
 
 .image-deux{
@@ -68,8 +67,8 @@ text-align:center;
   height: 221px;
 }
 .image-cing{
-  width: 260px;
-  height: 375px;
+  width: 375px;
+  height: 260px;
 }
 .image-six{
   width: 201px;
