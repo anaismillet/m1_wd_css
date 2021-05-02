@@ -428,10 +428,9 @@ header a:nth-child(3){
 }
 
 .button2 {
-  border-color: #B1EA86;
+  border-color: #F5F6F4;
   font-variation-settings: 'TRME' 500;
-  border: none;
-  color: #1C0B1D;
+  color: #F5F6F4;
   padding: 16px 20px;
   text-align: center;
   font-size: 16px;

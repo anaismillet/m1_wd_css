@@ -18,23 +18,20 @@ h1{
   font-weight: 140;
   color: #f5f5f5;
   text-align: center;
+  z-index: 999;
 }
 
-.button div{
-text-align:center;
-}
-
-.button {
-  margin-top: 1em;
-  border: 2em;
-  border-color: #ffff;
-  color: white;
-  padding: 16px 32px;
+.center {
   font-size: 2em;
-  transition: 0.3s;
-  display: inline-block;
-  text-decoration: none;
-  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  color: #F5F6F4;
+  letter-spacing: 3px;
 }
 
 .button hover{
@@ -42,7 +39,7 @@ text-align:center;
 }
 
 .container div{
-  padding: 23px;
+  padding: 20px;
 }
 .container{
   display: flex;
@@ -50,32 +47,66 @@ text-align:center;
   flex-wrap: wrap;
 }
 .image-un{
-  width: 165px;
-  height: 351px;
+  width: 200px;
+  height: 388px;
+  margin-top: -65px;
+}
+.image-un:hover{
+  margin-top: -3px;
+  transition: 2s;
 }
 
 .image-deux{
-  width: 204px;
-  height: 276px;
+  width: 225px;
+  height: 305px;
+  margin-top: 80px;
+}
+.image-deux:hover{
+  margin-top: -5px;
+  transition: 2s;
 }
 .image-trois{
-  width: 196px;
-  height: 214px;
+  width: 217px;
+  height: 236px;
+  margin-top: 148px;
+}
+.image-trois:hover{
+  margin-top: 100px;
+  transition: 2s;
 }
 .image-quatre{
-  width: 294px;
-  height: 221px;
+  width: 325px;
+  height: 245px;
+  margin-top: 139px;
 }
-.image-cing{
-  width: 375px;
-  height: 260px;
+.image-quatre:hover{
+  margin-top: 100px;
+  margin-left: 30px;
+  transition: 2s;
+}
+.image-cinq{
+  width: 414px;
+  height: 288px;
+  margin-left: 290px;
+}
+.image-cinq:hover{
+  margin-top: 30px;
+  transition: 2s;
 }
 .image-six{
-  width: 201px;
-  height: 279px;
-
+  width: 222px;
+  height: 309px;
+}
+.image-six:hover{
+  margin-top: 30px;
+  transition: 2s;
 }
 .image-sept{
-  width: 234px;
-  height: 316px;
+  width: 258px;
+  height: 349px;
+  margin-top: 50px;
+}
+.image-sept:hover{
+  margin-top: 60px;
+  transition: 2s;
 }
